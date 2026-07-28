@@ -1,0 +1,21 @@
+{
+  "name": "ci_test_node_v1",
+  "version": "1.0.0",
+  "description": "Progetto per la creazione di una Pipeline di CI utilizzando GitHub Actions, il progetto e su questa repository in locale sulla quale c'e una REST API in Node.Js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnviroment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
+  }
+}
