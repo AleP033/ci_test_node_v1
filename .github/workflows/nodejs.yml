@@ -1,0 +1,27 @@
+name: Node.Js test CI
+
+# eventi
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    build:
+        # scleta del tipo di runner(VM)
+        runs-on: ubuntu-latest
+
+        strategy:
+            matrix: #blocco sequenziale di operazioni multiple
+                node-version: [14.x, 16.x] # test del codice su entrambe le versioni
+
+        steps:
+            - uses: actions/checkout@2
+            - name: Usa Node.Js ${{matrix.node-version}}
+              uses: actions/setup-node@v1
+              with:
+                node-version: ${{matrix.node-version}} # effettiva installazione del setup node con la versione della matrice
+            - run: npm ci # verifica per la ci
+            - run: npm run build --if-present #build del pacchetto di codice se presente
+            - run: npm test # una volta effettuata la build verifico con i test
