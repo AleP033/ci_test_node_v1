@@ -7,7 +7,7 @@ Progetto per la creazione di una Pipeline di CI utilizzando GitHub Actions, il p
 - Video 8/10: creazione immagine su Docker Hub, autorizzo GitHub Actions ad eseguire il delivery, tramite l'aggiornamento del file yml
 - Video 9/10: effettuo il setup dell'username e della password, su docker hub creo un token e copio l'username e la password inserendoli nella sezione Secrets and Variables -> Actions -> New Repository Secret e creandone due, una per l'username e l'altra per la password. Da lì il processo in automatico riuscirà a prendere le credenziali private ed a effettuare l'accesso 
 - Video 10/10: aggiunta delle modifiche su GitHub(git add . git commit -m "messagio" git push) e avvio del processo in automatico anche su docker, una volta che il tutto va a buon fine vado su Docker Desktop, prendo l'immagine dall'hub e faccio una pull, la starto e specifico la porta inserita nel file index.js(3000) e se tutto va a buon fine dovrei vedere le informazioni che ho specificato nelle operazioni CRUD(in questo caso alla route '/' dovrei vedere Hello World! e sulla route '/client', dovrei vedere Hello Client!).
-Provo a fare una modifica su tutto aggiungendo un nuovo endpoint('/friend' che restituisce Hello Friend!). Uso npm test per vedere se funzionano in locale
+Provo a fare una modifica su tutto aggiungendo un nuovo endpoint('/friend' che restituisce Hello Friend!). Uso npm test per vedere se funzionano in locale. Aggiungo le modifiche alla repo di GitHub. Torno su Docker Desktop e dovrei vedere una nuova immagine presente nell'hub, faccio la pull, la avvio sempre sulla porta specificata e se tutto va bene dovrei vedere il nuovo endpoint sul localhost
 
 
 
