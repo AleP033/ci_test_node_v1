@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Pagina-1" id="dn9zAQN3qRkZua2qpce6">
+    <mxGraphModel dx="1030" dy="622" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wUZJib-W9_Zl0imNFujd-3" edge="1" parent="1" source="wUZJib-W9_Zl0imNFujd-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="wUZJib-W9_Zl0imNFujd-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141.66499999999996" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-1" parent="1" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" value="" vertex="1">
+          <mxGeometry height="80" width="83.33" x="100" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="REST API&lt;br&gt;NodeJs" vertex="1">
+          <mxGeometry height="40" width="78.34" x="102.49" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-7" edge="1" parent="1" source="wUZJib-W9_Zl0imNFujd-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wUZJib-W9_Zl0imNFujd-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Local REPO GIT" vertex="1">
+          <mxGeometry height="60" width="120" x="81.66000000000003" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-17" edge="1" parent="1" source="wUZJib-W9_Zl0imNFujd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" target="wUZJib-W9_Zl0imNFujd-16" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-6" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="GitHub" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Push" vertex="1">
+          <mxGeometry height="30" width="60" x="250" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-11" edge="1" parent="1" source="wUZJib-W9_Zl0imNFujd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="wUZJib-W9_Zl0imNFujd-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-13" edge="1" parent="1" source="wUZJib-W9_Zl0imNFujd-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="wUZJib-W9_Zl0imNFujd-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-9" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;" value="GitHub Actions" vertex="1">
+          <mxGeometry height="60" width="120" x="354" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-10" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Build" vertex="1">
+          <mxGeometry height="40" width="66" x="450" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-12" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" value="Test" vertex="1">
+          <mxGeometry height="40" width="66" x="450" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-14" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="65" y="100" as="sourcePoint" />
+            <mxPoint x="540" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CI: Continuous Integration" vertex="1">
+          <mxGeometry height="40" width="170" x="220" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-16" parent="1" style="whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="Docker Hub" vertex="1">
+          <mxGeometry height="60" width="120" x="710" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Delivery" vertex="1">
+          <mxGeometry height="30" width="60" x="560" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-19" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="100" relative="1" width="100" as="geometry">
+            <mxPoint x="560" y="100" as="sourcePoint" />
+            <mxPoint x="880" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CD: Continuous Deployment" vertex="1">
+          <mxGeometry height="30" width="160" x="660" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="La Delivery sul Docker Hub è fatta da GitHub Actions" vertex="1">
+          <mxGeometry height="30" width="240" x="490" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="wUZJib-W9_Zl0imNFujd-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Facciamo le operazioni partendo dalla &lt;b&gt;REST API&lt;/b&gt; che si trova in una &lt;b&gt;local REPO&lt;/b&gt; che viene inserita su &lt;b&gt;GitHub&lt;/b&gt;, &lt;b&gt;GitHub Actions effettua &lt;/b&gt;le varie operazioni(&lt;b&gt;Build &lt;/b&gt;e &lt;b&gt;Test&lt;/b&gt;) &lt;b&gt;dettagliate &lt;/b&gt;nei file YAML(&lt;b&gt;.yml&lt;/b&gt;). Una volta che tutto il processo &lt;b&gt;funziona &lt;/b&gt;ed è andato a buon fine, &lt;b&gt;effettua &lt;/b&gt;un &lt;b&gt;Delivery &lt;/b&gt;sul &lt;b&gt;Docker Hub &lt;/b&gt;mettendo in produzione l&#39;applicazione" vertex="1">
+          <mxGeometry height="70" width="785" x="5" y="440" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
